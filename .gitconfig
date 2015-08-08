@@ -3,7 +3,9 @@
 	name = RichardCSantana
 [alias]
 	co = checkout
+	cb = checkout -b
 	ci = commit
+	cm = commit -m
 	st = status
 	cl = clone
 	br = branch
