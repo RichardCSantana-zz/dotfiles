@@ -128,3 +128,4 @@ alias get='sudo apt-get install -y'
 alias upgrade='sudo apt-get update;sudo apt-get upgrade;sudo apt-get autoremove'
 alias dck=docker
 alias vgt=vagrant
+alias at=atom
