@@ -1,0 +1,15 @@
+[user]
+	email = richardcsantana@gmail.com
+	name = RichardCSantana
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	cl = clone
+	br = branch
+	pl = pull --rebase
+	ps = push -u
+	mm = merge --no-ff
+	ai = add -i
+[push]
+	default = matching
