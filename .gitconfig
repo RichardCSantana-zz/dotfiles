@@ -13,5 +13,6 @@
 	ps = push -u
 	mm = merge --no-ff
 	ai = add -i
+	sync = "!git fetch upstream && git rebase upstream/master"
 [push]
 	default = matching
