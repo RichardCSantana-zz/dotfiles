@@ -76,6 +76,12 @@ source $HOME/.rvm/scripts/rvm
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+function _completemarks {
+  reply=($(ls $MARKPATH))
+}
+
+compctl -K _completemarks jump
+compctl -K _completemarks unmark
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
